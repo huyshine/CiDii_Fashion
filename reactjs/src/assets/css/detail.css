@@ -1,0 +1,98 @@
+.detail__content{
+    display: grid;
+    grid-template-columns: 54% 30%;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+}
+/* Left */
+.content__left{
+    overflow: hidden;
+    text-align: right;
+}
+/* Right */
+.content__right .info{
+    padding: 0 0 10px;
+    border-bottom: 1px dotted #a8a8a8;
+}
+.content__right .info h1{
+    line-height: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.content__right .info p{
+    font-weight: bold;
+    font-size: 1vw;
+}
+.content__right .price{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.content__right .color{
+    margin-bottom: 20px;
+}
+.content__right .color p{
+    font-size: 0.8vw;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content__right .color button{
+    background: transparent;
+    border: none;
+}
+.content__right .color button:hover{
+    cursor: pointer;
+}
+.content__right .color img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 100px;
+}
+.content__right .size{
+    margin-bottom: 30px;
+}
+.content__right .size p{
+    font-size: 0.8vw;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content__right .size span{
+    font-size: 1.2vw;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 10px 15px;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+.content__right .quantity{
+    margin-bottom: 20px;
+}
+.content__right .quantity p{
+    font-size: 0.8vw;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content__right .quantity i{
+    padding: 8px;
+    border: 1px solid rgb(151, 151, 151);
+}
+.content__right .quantity input{
+    border: none;
+    width: 60px;
+    height: 38px;
+    padding-left: 25px;
+}
+.content__right .btn input{
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    font-size: 1.4vw;
+    border: 1px solid #000;
+}
+.content__right .btn input:hover{    
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}

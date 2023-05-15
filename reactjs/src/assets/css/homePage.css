@@ -1,0 +1,67 @@
+/* Body CSS */
+.content{
+    width:1448px ;
+    margin: 0 auto;
+}
+.title-products{
+    margin: 40px 0;
+    font-weight: bold;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 30px;
+}
+.item-product{
+    position: relative;
+    display: block;
+    padding: 26px;
+}
+.item-product .ant-image-img{
+    height: 420px;
+}
+.btn__item-product{
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+    padding: 7px 0;
+    left: 0;
+}
+.btn__item-product a,
+.btnBuy{
+    width: 50%;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.btn__item-product a{
+    padding: 12px;
+}
+.btn__item-product a:hover{
+    color: #fff;
+}
+.btn__item-product a svg{
+    margin-top: -4px;
+}
+.name-product a{
+    text-decoration: none;
+    color: #000;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 20px;
+}
+.price{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sub-banner{
+    margin: 90px 0 40px 0;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,133 @@
+/* Body CSS */
+.main-site{
+    margin-bottom: 40px;
+}
+.user-wrapper {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+.user-nav {
+    border-bottom: 2px solid #cccccc63;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(146 146 146 / 14%);
+}
+.user-nav a.active, .user-nav a:hover {
+    border-bottom: 2px solid #10a2f7;
+}
+.user-nav a {
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    color: #252a2b;
+    text-decoration: none;
+    outline: none;
+}
+.user-wrapper #formAcount {
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group i{
+    position: absolute;
+    margin-left: -50px;
+    padding: 13px;
+}
+#formAcount input {
+    width: 100%;
+    clear: both;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+input:focus-visible{
+    outline: none;
+}
+#formAcount button {
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.user-foot {
+    font-size: 17px;
+}
+.user-foot a {
+    margin: 10px 0;
+    display: block;
+}
+.user-foot a.clearfix {
+    color: #007bff;
+    text-decoration: none;
+}
+.user-foot a:hover{
+    color: rgb(255, 0, 0);
+}
+.text-center {
+    text-align: center;
+}
+#formAcount .btn-signup {
+    background: #fd6e1d;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#fd6e1d),to(#f59000));
+    background: -webkit-linear-gradient(top,#f59000,#fd6e1d);
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}
+
+/*  */
+.loginFb {
+    width: 275px;
+    background: #3b5998;
+    display: inline-block;
+}
+.loginGg {
+    width: 250px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 23px 20px;
+}
+.loginFb a, .loginGg a {
+    color: #fff;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.loginFb a:hover, .loginGg a:hover{
+    color: #fff;
+}
+.loginGg span {
+    border-right: 1px solid #646668;
+}
+.loginFb span, .loginGg span {
+    float: left;
+    width: 50px;
+    height: 100%;
+    font-size: 31px;
+    color: #fff;
+    border-right: 1px solid #15416f;
+}

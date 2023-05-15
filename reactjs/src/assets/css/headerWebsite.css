@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+/* header CSS */
+.top-bar ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.number-phone,
+.Account,
+.Cart{
+    padding-left: 5px;
+}
+.Account,
+.Cart{
+    font-weight: 100;
+}
+.top-bar{
+    background: #f2f2f2;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 28px;
+}
+.top-bar__left{
+    text-align: left;
+}
+.top-bar__left ul{
+    padding-left: 40px;
+}
+.top-bar__left a svg,
+.top-bar__right a svg{
+    margin-top: -4px;
+}
+.top-bar__right{
+    text-align: right;
+}
+.top-bar__right ul{
+    padding-right: 40px;
+}
+.site-header{
+    display: grid;
+    grid-template-columns: 17% 67% 17%;
+    padding: 0 40px;
+}
+.logo-4men{
+    height: 83px;
+}
+.affixed {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 20%);
+    animation: fadeInDown .6s both;
+    z-index: 999;
+}
+@keyframes fadeInDown{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to{
+        opacity: 100%;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.nav ,.footer{
+    margin: 0 auto;
+}
+.nav li{
+    display: inline-block;
+    position: relative;
+}
+.top-bar ul li{
+    display: inline-block;
+    margin-right:50px ;
+}
+.top-bar__bottom59{
+    margin-bottom: 59px;
+}
+.nav li a{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    line-height: 55px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.menu ul .nav{
+    text-align: center;
+}
+
+.hover{
+    margin-top: 20px;
+    color: #000;
+    font-family: 'Quicksand';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.hover:hover {
+    color: rgb(119, 118, 118);
+}
+.form-controlCus ,.btn-dark {
+    border-radius: 5rem;
+}
+.slider a img{
+    max-width: 1519.2px;
+}
+.input-group {
+    margin-top: 33px;
+}
+.search{
+    position: relative;
+}
+#inputForm1{
+    margin-top: 26px;
+    border-radius: 22px;
+    background-color: #fefefe;
+    border: solid 1px #a7a7a7;
+    padding: 8px 0 8px 15px;
+    width: 100%;
+}
+.btnCus{
+    font-size: 0;
+    border: none;
+    background: url(https://res.cloudinary.com/do9rcgv5s/image/upload/v1669028862/assignment_ReactTS/search_avnmbo.svg);
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    cursor: pointer;
+}
+.slider,.sub-banner{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}

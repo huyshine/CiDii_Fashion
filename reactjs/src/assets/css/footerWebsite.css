@@ -1,0 +1,135 @@
+/* Footer CSS */
+.infoFooter{
+    max-width: 1375px;
+    margin: 0 auto;
+    padding: 40px;
+    border-top: 1px solid #d0d0d0;
+    display: grid;
+    grid-template-columns: 19% 24% 33% 20%;
+    margin-top: 45px;
+}
+.iconFooter {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: #e52c25;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 100%;
+    margin-top: 8px;
+}
+.iconFooter svg{
+    margin-top: -4px;
+}
+.titleHotline{
+    font-size: 27px;
+    padding: 0 0 0 15px;
+}
+.fa-phone:before {
+    content: "\f095";
+}
+h4{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.moreInfoFooter{
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    margin: 5px 0 0;
+}
+ul.navbar-social{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.footerBottom{
+    display: grid;
+    grid-template-columns: 22% 18% 25% 29%;
+    background-color: #f1f1f1;
+    grid-gap: 30px;
+}
+.infoFooter h4{
+    font-size: 14px;
+}
+.footerBottom  h5{
+    font-weight: 600;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.footerBottom p ,.policise-item li a{
+    font-size: 14px;
+}
+.policies{
+    padding-left: 111px;
+}
+.policise-item {
+    padding: 0;
+}
+.policise-item li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+.policise-item li a{
+    text-decoration: none;
+    color: #000;
+}
+.system{
+    padding-left: 0;
+}
+.icon-social li,
+.icon-social li img{
+    list-style: none;
+    text-align: center;
+    width: 45px;
+}
+.social a span svg{
+    margin-top: 16px;
+}
+.navbar-icon__links{
+    color: #000;
+}
+.input_regBot{
+    margin-top:4px;
+    padding: 10px 16px;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    height: 36px;
+}
+.btn__register{
+    margin-left: -5px;
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    height: 36px;
+}
+.our_fanpage{
+    padding-left: 25px;
+}
+.bottomBar{
+    line-height: 44px;
+    text-align: center;
+    padding-right: 142px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #000;
+}
+.bttop{
+    display: none;
+    text-align: center;
+    position: fixed;
+    bottom: 130px;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    font-weight: 900;
+    transform: rotate(-90deg);
+    z-index: 99;
+    right: -30px;
+}
+.text-bttop{
+    float: left;
+    margin: -3px 10px;
+}
